@@ -22,9 +22,9 @@ export default function Home() {
       </div>
 
       {/* Main Section */}
-      <main className="px-4 sm:px-6 md:px-8 lg:px-30 lg:h-[820px] lg:overflow-hidden">
+      <main className="px-4 sm:px-6 md:px-8 lg:px-30 ">
         {/* Header */}
-        <header className="w-full flex items-center lg:justify-between pt-4 px-4 sm:px-6 md:px-3 lg:px-5 xl-px-30 z-[1100] relative">
+        <header className="w-full flex items-center lg:justify-between pt-4 px-4 sm:px-6 md:px-3 lg:pl-15 lg:pr-15 xl-px-40 z-[1100] relative">
           <Link href="/" className=" items-center w-full flex justify-center lg:max-w-fit">
             <Image src="/images/fametonic.svg" alt="Fametonic Logo"  width={173} height={74}/>
           </Link>
@@ -60,7 +60,7 @@ export default function Home() {
         </header>
 
         {/* Hero Section */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 relative md:px-3 lg:px-5 xl-px-30 lg:pb-[460px]">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 relative md:px-3 lg:px-15 xl-px-40 lg:pb-[460px]">
           {/* Text Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left order-last lg:order-first mt-[310px]  lg:mt-16  z-[1100]">
             <h1 className="text-2xl lg:text-4xl font-bold leading-snug lg:leading-tight">Want to Turn Social Media Into a Profitable Career?</h1>
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
 
           {/* Image */}
-          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end absolute z-[1000]  top-[-50px] lg:top-[-70px] xl:top-[-170px] lg:right-[30px] xl:right-[100px]">
+          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end absolute z-[1000]  top-[-50px] lg:top-[-90px] xl:top-[-130px] lg:right-[30px] xl:right-[100px]">
       <img src="/images/phone-mockup.png" alt="Phone UI" className="w-auto h-[426px] lg:max-w-full lg:h-auto"/>
           </div>
         </div>
