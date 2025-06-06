@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,9 +24,9 @@ export default function Home() {
       <main className="px-4 sm:px-6 md:px-8 lg:px-30">
         {/* Header */}
         <header className="w-full flex items-center lg:justify-between pt-4 px-4 sm:px-6 md:px-3 lg:px-30 z-[1100] relative">
-          <a href="/" className=" items-center w-full flex justify-center lg:max-w-fit">
+          <Link href="/" className=" items-center w-full flex justify-center lg:max-w-fit">
             <img src="/images/fametonic.svg" alt="Fametonic Logo" className="h-[74px] w-[173px]" />
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex space-x-6 text-lg font-medium">
@@ -94,7 +95,7 @@ export default function Home() {
                 <p className="text-xs mt-2 text-center">1-minute quiz for personalized insights</p>
               </div>
 
-              <p className="text-xs mt-2 text-grayCustom">By clicking "Get Started", you agree with Terms and Conditions, Privacy Policy, Subscription Term.</p>
+              <p className="text-xs mt-2 text-grayCustom">By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Term.</p>
               <p className="text-[10px] mt-1 text-grayCustom">Fametonic 2025. All Rights Reserved.</p>
             </div>
           </div>
