@@ -30,12 +30,12 @@ export default function Home() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex space-x-6 text-lg font-medium">
-            <a href="#about" className="text-[#a9a9a9]">
+            <Link href="#about" className="text-[#a9a9a9]">
               About Us
-            </a>
-            <a href="#contact" className=" text-[#a9a9a9]">
+            </Link>
+            <Link href="#contact" className=" text-[#a9a9a9]">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile Menu Toggle */}
@@ -48,12 +48,12 @@ export default function Home() {
           {/* Mobile Dropdown */}
           {menuOpen && (
             <div className="absolute top-full right-0  bg-black border-t border-gray-800 px-4 py-2 lg:hidden">
-              <a href="#about" className="block py-2 text-sm  text-[#a9a9a9]">
+              <Link href="#about" className="block py-2 text-sm  text-[#a9a9a9]">
                 About Us
-              </a>
-              <a href="#contact" className="block py-2 text-sm  text-[#a9a9a9]">
+              </Link>
+              <Link href="#contact" className="block py-2 text-sm  text-[#a9a9a9]">
                 Contact
-              </a>
+              </Link>
             </div>
           )}
         </header>
