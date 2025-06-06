@@ -67,7 +67,7 @@ export default function Home() {
 
             <h2 className="text-homebar text-2xl lg:text-4xl font-bold mt-4 " style={{ textShadow: "0px 4px 4px rgba(252, 0, 78, 1)" }}>Discover your way to success with Fametonic:</h2>
 
-            <ul className="text-left mt-6 space-y-2 text-base font-semibold">
+            <ul className="text-left  mt-6 space-y-2 text-base font-semibold">
               <li>
                 <span className="inline-block w-[22px] h-[22px] mr-2">✨</span>
                 Start growing your influence right away — no waiting required!
