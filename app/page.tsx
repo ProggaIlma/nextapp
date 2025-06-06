@@ -104,7 +104,7 @@ export default function Home() {
           </div>
 
           {/* Image */}
-          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end absolute z-[1000]  top-[-50px] lg:top-[-90px] xl:top-[-180px] lg:right-[30px] xl:right-[100px]">
+          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end absolute z-[1000]  top-[-50px] lg:top-[0px] xl:top-[-180px] lg:right-[30px] xl:right-[100px]">
       <img src="/images/phone-mockup.png" alt="Phone UI" className="w-auto h-[426px] lg:max-w-full lg:h-auto"/>
           </div>
         </div>
