@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -25,7 +26,7 @@ export default function Home() {
         {/* Header */}
         <header className="w-full flex items-center lg:justify-between pt-4 px-4 sm:px-6 md:px-3 lg:px-30 z-[1100] relative">
           <Link href="/" className=" items-center w-full flex justify-center lg:max-w-fit">
-            <img src="/images/fametonic.svg" alt="Fametonic Logo" className="h-[74px] w-[173px]" />
+            <Image src="/images/fametonic.svg" alt="Fametonic Logo"  width={173} height={74}/>
           </Link>
 
           {/* Desktop Nav */}
@@ -89,20 +90,21 @@ export default function Home() {
               <div className="order-last lg:order-first w-full lg:w-[fit-content] mb-10 lg:mb-0">
                 <button className="flex items-center justify-center gap-x-2 bg-pinkhomebar hover:bg-pinkhomebar text-white py-2 px-18 shadow-[2px_2px_10px_rgba(0,231,249,1)] rounded-[10px] font-bold text-xl w-full lg:w-auto">
                   GET STARTED
-                  <img src="/images/arrow.svg" alt="Arrow" className="w-5 h-5" />
+                  <Image src="/images/arrow.svg" alt="Arrow" width={5} height={5}/>
                 </button>
 
                 <p className="text-xs mt-2 text-center">1-minute quiz for personalized insights</p>
               </div>
 
-              <p className="text-xs mt-2 text-grayCustom">By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Term.</p>
-              <p className="text-[10px] mt-1 text-grayCustom">Fametonic 2025. All Rights Reserved.</p>
+<p className="text-xs mt-2 text-grayCustom">
+  By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Term.
+</p>              <p className="text-[10px] mt-1 text-grayCustom">Fametonic 2025. All Rights Reserved.</p>
             </div>
           </div>
 
           {/* Image */}
           <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end absolute z-[1000]  top-[-50px] lg:top-[0px] xl:top-[-170px] lg:right-[100px] xl:right-[100px]">
-            <img src="/images/phone-mockup.png" alt="Phone UI" className="w-auto h-[426px] lg:max-w-full lg:h-auto" />
+      <img src="/images/phone-mockup.png" alt="Phone UI" className="w-auto h-[426px] lg:max-w-full lg:h-auto"/>
           </div>
         </div>
       </main>
