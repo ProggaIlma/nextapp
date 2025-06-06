@@ -22,9 +22,9 @@ export default function Home() {
       </div>
 
       {/* Main Section */}
-      <main className="px-4 sm:px-6 md:px-8 lg:px-30">
+      <main className="px-4 sm:px-6 md:px-8 lg:px-30 lg:h-[820px] lg:overflow-hidden">
         {/* Header */}
-        <header className="w-full flex items-center lg:justify-between pt-4 px-4 sm:px-6 md:px-3 lg:px-30 z-[1100] relative">
+        <header className="w-full flex items-center lg:justify-between pt-4 px-4 sm:px-6 md:px-3 lg:px-5 xl-px-30 z-[1100] relative">
           <Link href="/" className=" items-center w-full flex justify-center lg:max-w-fit">
             <Image src="/images/fametonic.svg" alt="Fametonic Logo"  width={173} height={74}/>
           </Link>
@@ -60,14 +60,14 @@ export default function Home() {
         </header>
 
         {/* Hero Section */}
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 relative md:px-3 lg:px-30 lg:pb-[460px]">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 relative md:px-3 lg:px-5 xl-px-30 lg:pb-[460px]">
           {/* Text Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left order-last lg:order-first mt-[310px]  lg:mt-16  z-[1100]">
             <h1 className="text-2xl lg:text-4xl font-bold leading-snug lg:leading-tight">Want to Turn Social Media Into a Profitable Career?</h1>
 
             <h2 className="text-homebar text-2xl lg:text-4xl font-semibold mt-4 " style={{ textShadow: "0px 4px 4px rgba(252, 0, 78, 1)" }}>Discover your way to success with Fametonic:</h2>
 
-            <ul className="text-left mt-6 space-y-2 text-sm sm:text-base">
+            <ul className="text-left mt-6 space-y-2 text-base">
               <li>
                 <span className="inline-block w-[22px] h-[22px] mr-2">✨</span>
                 Start growing your influence right away — no waiting required!
@@ -88,22 +88,23 @@ export default function Home() {
 
             <div className="flex flex-col mt-6 lg:w-fit gap-5 lg:gap-2">
               <div className="order-last lg:order-first w-full lg:w-[fit-content] mb-10 lg:mb-0">
-                <button className="flex items-center justify-center gap-x-2 bg-pinkhomebar hover:bg-pinkhomebar text-white py-2 px-18 shadow-[2px_2px_10px_rgba(0,231,249,1)] rounded-[10px] font-bold text-xl w-full lg:w-auto">
+                <button className="flex items-center justify-center gap-x-2 bg-pinkhomebar hover:bg-pinkhomebar
+                 text-white py-2 px-18 shadow-[2px_2px_10px_rgba(0,231,249,1)] rounded-[10px] font-bold text-xl w-full lg:w-auto">
                   GET STARTED
-                  <Image src="/images/arrow.svg" alt="Arrow" width={5} height={5}/>
+                  <Image src="/images/arrow.svg" alt="Arrow" width={11} height={6}/>
                 </button>
 
                 <p className="text-xs mt-2 text-center">1-minute quiz for personalized insights</p>
               </div>
 
 <p className="text-xs mt-2 text-grayCustom">
-  By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Term.
+  By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Terms.
 </p>              <p className="text-[10px] mt-1 text-grayCustom">Fametonic 2025. All Rights Reserved.</p>
             </div>
           </div>
 
           {/* Image */}
-          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end absolute z-[1000]  top-[-50px] lg:top-[0px] xl:top-[-170px] lg:right-[100px] xl:right-[100px]">
+          <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-end absolute z-[1000]  top-[-50px] lg:top-[-70px] xl:top-[-170px] lg:right-[30px] xl:right-[100px]">
       <img src="/images/phone-mockup.png" alt="Phone UI" className="w-auto h-[426px] lg:max-w-full lg:h-auto"/>
           </div>
         </div>
