@@ -16,7 +16,7 @@ export default function Home() {
 
       {/* Top Banner */}
       <div className="bg-gradient-to-r from-pinkhomebar to-homebar text-white text-[16px] lg:text-[22px] text-center py-2 
-      font-semibold px-4 z-[1100] relative">
+      font-extrabold px-4 z-[1100] relative">
         <span className="text-homebar">🚀 FRESH BEGINNINGS SALE: </span>
         <span>Extra 25% OFF, Limited Spots</span> – start your journey today!
       </div>
@@ -30,7 +30,7 @@ export default function Home() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex space-x-6 text-lg font-medium">
+          <nav className="hidden lg:flex space-x-6 text-lg font-semibold">
             <Link href="#about" className="text-[#a9a9a9]">
               About Us
             </Link>
@@ -48,7 +48,7 @@ export default function Home() {
 
           {/* Mobile Dropdown */}
           {menuOpen && (
-            <div className="absolute top-full right-0  bg-black border-t border-gray-800 px-4 py-2 lg:hidden">
+            <div className="absolute top-full right-0  bg-black border-t border-gray-800 px-4 py-2 lg:hidden font-semibold">
               <Link href="#about" className="block py-2 text-sm  text-[#a9a9a9]">
                 About Us
               </Link>
@@ -65,9 +65,9 @@ export default function Home() {
           <div className="w-full lg:w-1/2 text-center lg:text-left order-last lg:order-first mt-[310px]  lg:mt-16  z-[1100]">
             <h1 className="text-2xl lg:text-4xl font-bold leading-snug lg:leading-tight">Want to Turn Social Media Into a Profitable Career?</h1>
 
-            <h2 className="text-homebar text-2xl lg:text-4xl font-semibold mt-4 " style={{ textShadow: "0px 4px 4px rgba(252, 0, 78, 1)" }}>Discover your way to success with Fametonic:</h2>
+            <h2 className="text-homebar text-2xl lg:text-4xl font-bold mt-4 " style={{ textShadow: "0px 4px 4px rgba(252, 0, 78, 1)" }}>Discover your way to success with Fametonic:</h2>
 
-            <ul className="text-left mt-6 space-y-2 text-base">
+            <ul className="text-left mt-6 space-y-2 text-base font-semibold">
               <li>
                 <span className="inline-block w-[22px] h-[22px] mr-2">✨</span>
                 Start growing your influence right away — no waiting required!
@@ -94,12 +94,12 @@ export default function Home() {
                   <Image src="/images/arrow.svg" alt="Arrow" width={11} height={6}/>
                 </button>
 
-                <p className="text-xs mt-2 text-center">1-minute quiz for personalized insights</p>
+                <p className="text-xs mt-2 text-center font-normal">1-minute quiz for personalized insights</p>
               </div>
 
-<p className="text-xs mt-2 text-grayCustom">
+<p className="text-xs mt-2 text-grayCustom font-medium">
   By clicking &quot;Get Started&quot;, you agree with Terms and Conditions, Privacy Policy, Subscription Terms.
-</p>              <p className="text-[10px] mt-1 text-grayCustom">Fametonic 2025. All Rights Reserved.</p>
+</p>              <p className="text-[10px] mt-1 text-grayCustom font-medium">Fametonic 2025. All Rights Reserved.</p>
             </div>
           </div>
 
